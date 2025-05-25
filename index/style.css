@@ -1,0 +1,81 @@
+.carousel-item img {
+width: 250px;
+height: 450px;
+
+}
+
+  .timeline-horizontal {
+    gap: 20px;
+  }
+
+  .timeline-year {
+    width: 200px;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 80px;
+    font-weight: bold;
+  }
+
+  .timeline-text {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 576px) {
+    .timeline-year {
+      width: 100%;
+    }
+  }
+
+
+ .team-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+
+  .social-icons a {
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #0d6efd; /* Bootstrap primary blue */
+  }
+
+  .card-img-top {
+  height: 250px !important;
+  object-fit: cover !important;
+}
+
+.card-img-top {
+  border: 5px solid rgb(182, 179, 179);
+}
+
+
+img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+  .gallery-img {
+    width:600px;
+    height:300px;
+    object-fit: cover;
+  }
+
+.form-control{
+    border: 5px solid hsl(240, 2%, 49%);
+   
+}
+
+
+
